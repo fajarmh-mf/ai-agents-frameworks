@@ -157,3 +157,17 @@ def plot():
 
 if __name__ == "__main__":
     kickoff()
+
+
+# Let’s analyze what’s happening in this flow:
+
+# We define Pydantic models for structured data, ensuring type safety and clear data representation
+# We create a state class to maintain data across different steps of the flow
+# We implement three main flow steps:
+# Getting user input with the @start() decorator
+# Creating a guide outline with a direct LLM call
+# Processing sections with our content crew
+# We use the @listen() decorator to establish event-driven relationships between steps
+# This is the power of flows - combining different types of processing (user interaction, direct LLM calls, crew-based tasks) into a coherent, event-driven system.
+
+# ​This is the power of flows - combining different types of processing (user interaction, direct LLM calls, crew-based tasks) into a coherent, event-driven system.

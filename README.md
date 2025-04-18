@@ -10,3 +10,9 @@
 - review the output on output/
     - guidline_outline.json
     - complete_guide.md
+
+## Autogen - Agent_chat
+- create virtual env ```python3 -m venv .venv``` 
+- ```source .venv/bin/activate```
+- install ```pip install -r requiremenst.txt```
+- running ```python3 agent_chat.py```
