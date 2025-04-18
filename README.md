@@ -16,3 +16,9 @@
 - ```source .venv/bin/activate```
 - install ```pip install -r requiremenst.txt```
 - running ```python3 agent_chat.py```
+
+## Autogen - Core Concept Single Thread
+- create virtual env ```python3 -m venv .venv``` 
+- ```source .venv/bin/activate```
+- install ```pip install -r requiremenst.txt```
+- running ```python3 core.py```
